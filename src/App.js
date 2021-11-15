@@ -3,7 +3,7 @@
 import React from "react";
 import Navbar from "./pages/navbar/navbar"
 // import Homepage from "./pages/section/index";
-import Homepage from "./pages/homepage"
+import Homepage from "./pages/landingPage/homepage"
 import Salads from "./Foods/Salads";
 import MainCourse from "./Foods/MainCourse";
 import Deserts from "./Foods/Deserts";
@@ -18,7 +18,7 @@ function App() {
         <Route path="/Salad" component={Salads} />
         <Route exact path="/" component={Homepage} />
         <Route exact path="/Main" component={MainCourse} />
-        <Route exact path="/dessert" component={Deserts} />
+        <Route exact path="/desert" component={Deserts} />
         <Route exact path="/drinks" component={Drinks} />
         <Route />
       </Switch>

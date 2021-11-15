@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Dropdown } from "react-bootstrap";
+// import { Dropdown } from "react-bootstrap";
 import { getSalads } from "../fakeGenreService";
+import {Col, Row} from "reactstrap";
 import "./food.css";
 
 class Salads extends Component {
@@ -25,26 +26,22 @@ class Salads extends Component {
   render() {
     // console.log(this.state.salads);
     return (
-      <div className="Salads w-100 d-flex flex-row justify-content-around  row">
-        <div className="orderDiv w-25 d-flex flex-row  justify-content-center ">
-          <div className="d-flex flex-column justify-content-evenly">
-            <h3 className="text-light fw-bold"> Your Choice</h3>
-            <div>Desert Something Name</div>
-            <button className="btn btn-success" type="submit">
-              Order
-            </button>
-          </div>
-        </div>
+      <Row className="Salads w-100 d-flex flex-row justify-content-around  row">
+        <Row className='d-flex justify-content-end'>
+          <Col sm='2' className='d-flex justify-content-end mt-3'>
+            <button className='btn btn-info' onClick={() => console.log(this.props.history.goBack())}>Back</button>
+          </Col>
+        </Row>
         {this.state.salads.map((salad) => (
-          <div
-            className="aSaladDiv d-flex flex-column justify-content-between  mt-4 col-4 "
+          <Row
+            className="aSaladDiv d-flex flex-column justify-content-between mt-4 col-4"
             key={salad.key}
           >
-            <div className="saladImg">
+            <Row className="saladImg">
               <img src={salad.img} />
-            </div>
-            <div className="d-flex flex-row justify-content-between ">
-              <div class="numberOforders bg-light d-flex flex-row justify-content-between ">
+            </Row>
+            <Row className="d-flex flex-row justify-content-center ">
+              <Col class="numberOforders bg-light d-flex flex-row justify-content-between ">
                 <button
                   className="btn badge badge-rounded btn-danger"
                   type="button"
@@ -61,14 +58,14 @@ class Salads extends Component {
                 >
                   +
                 </button>
-              </div>
-              <div>
+              </Col>
+              <Col sm='2'>
                 <h4 className="text-secondary bg-light">Price:{salad.price}</h4>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Row>
         ))}
-      </div>
+      </Row>
     );
   }
 }

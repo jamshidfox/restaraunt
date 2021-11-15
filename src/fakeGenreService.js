@@ -4,28 +4,28 @@
 const houses = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
-    title: "Salad",
+    title: "salad",
     price: "10$",
     description: "Awaiting porcess",
     img: "https://img.taste.com.au/n5VUTpQW/w643-h428-cfill-q90/taste/2016/11/chicken-caesar-salad-83105-1.jpeg",
   },
   {
     _id: "5b21ca3eeb7f6fbccdsft471816",
-    title: "Main",
+    title: "main",
     price: "15$",
     description: "Some porcess",
     img: "https://media.gettyimages.com/photos/roasted-whole-french-chicken-picture-id1192828034?k=6&m=1192828034&s=612x612&w=0&h=SOJaF8kzICJJM3XJNVfZU_bjtOhPMnsfvEwssIOvhoA=",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47sfgfg1816",
-    title: "Dessert",
+    title: "desert",
     price: "7$",
     description: "Some porcess",
     img: "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVzc2VydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
   },
   {
     _id: "5b21ca3eeb7f6fbccd47ersd1816",
-    title: "Drinks",
+    title: "drinks",
     price: "10$",
     description: "Some porcess",
     img: "https://www.tasteofhome.com/wp-content/uploads/2018/01/exps51235_THCA153054B08_29_2b-1.jpg?fit=700,1024",

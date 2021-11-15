@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Sidebar from "./sideBar";
-import Section from "./section";
+import Sidebar from "./maleculas/sideBar";
+import Section from "./maleculas/section";
 
 class Homepage extends Component {
   render() {

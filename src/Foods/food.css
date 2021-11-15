@@ -1,6 +1,7 @@
-.aSaladDiv {
-  width: 50%;
-  overflow: hidden;
+.aSaladDiv {  
+  overflow-y: hidden;
+  width:100%;
+  height: 100%;
 }
 .Salads {
   width: 100%;
@@ -9,17 +10,12 @@
   height: 250px;
   margin-top: 5em;
 }
+.saladImg img {
+  border-radius: 0.4in;
+}
 #btnOrder {
   width: 70px;
 }
 .numberOforders {
-  width: 200px;
-}
-.orderDiv {
-  /* width: 10%; */
-  margin-left: 60em;
-  height: 300px;
-  background-image: url(/src/concepts/sectionBackground.jpg);
-  overflow: hidden;
-  position: fixed;
+  width: 100%;
 }
