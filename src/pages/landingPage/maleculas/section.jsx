@@ -14,11 +14,11 @@ class Section extends Component {
 
   render() {
     return (
-      <Card className="conatainer shadow-lg" id="section">
+      <Card className="conatainer shadow-sm" id="section">
         <CardBody>
         <div className="w-100 d-flex flex-column align-items-center text-light  mt-2">
-          <h1 className="fst-italic text-warning">MENU</h1>
-          <p className='text-warning'>POSTERMYWALL CAFE</p>
+          <h1 className="fst-italic text-light">CARAVAN</h1>
+          {/* <p className='text-warning'>POSTERMYWALL CAFE</p> */}
         </div>
         {/* <div className="d-flex flex-row"> */}
         <Carousel controls={false} className="Carusel">

@@ -1,21 +1,21 @@
-#navBar {
+/* #navBar {
   background-color: white;
   height: 100%
-}
+} */
 #sideBarId {
-  height: 95vh;
+  height: 90vh;
   width: 20%;
-  margin-top: 0.5em;
-  /* background-image: url('/src/concepts/sidebar-background.jpg');
+  margin-top: 1em;
+  background-image: url('/src/concepts/sidebar.jpg');
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 #section {
-  margin-top: 0.5em;
+  margin-top: 1em;
   margin-left: 1em;
   width: 90%;
-  height: 95vh;
-  background-image: url("/src/concepts/landing-page2.jpg");
+  height: 90vh;
+  background-image: url("/src/concepts/background-blurry-restaurant-shop-interior.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   overflow-y: hidden;

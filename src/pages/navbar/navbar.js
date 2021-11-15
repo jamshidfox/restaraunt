@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { UncontrolledButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from "reactstrap";
-import Logo from "./maluculas/AvatarDropdown"
+import UserPicture from "./maluculas/AvatarDropdown"
+import Logo from "../../concepts/logo.png"
 // import { Link } from "react-router-dom";
 import "./navbar.css"
 import {Row, Col} from "reactstrap"
@@ -24,12 +25,13 @@ class Navbar extends Component {
       </UncontrolledButtonDropdown>
         </Col>
         <Col sm='4' className='d-flex justify-content-center'>
+            <img src={Logo} id='logo-img'/>
            <h3 className='text-light'> Restaurant </h3>
             </Col>
 
         <Col className="d-flex justify-content-end" sm='4'>
           <div id='account-user'>Farruhbek Kobilov</div>
-          <Logo/>
+          <UserPicture/>
         </Col>
       </Row>
     );
