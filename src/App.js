@@ -2,8 +2,9 @@
 // import "./App.css";
 import React from "react";
 import Navbar from "./pages/navbar/navbar"
+// import Homepage from "./pages/section/index";
+import Homepage from "./pages/homepage"
 import Salads from "./Foods/Salads";
-import Homepage from "./pages/section/index";
 import MainCourse from "./Foods/MainCourse";
 import Deserts from "./Foods/Deserts";
 import Drinks from "./Foods/Drinks";

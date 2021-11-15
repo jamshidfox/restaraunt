@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Dropdown } from "react-bootstrap";
 import { getSalads } from "../fakeGenreService";
-import "../Foods/food.css";
+import "./food.css";
 
 class Salads extends Component {
   state = {
