@@ -11,7 +11,7 @@ class Section extends Component {
     const food = getHouses();
     this.setState({ food });
   }
-
+///sd
   render() {
     return (
       <Card className="conatainer shadow-sm" id="section">
