@@ -31,6 +31,7 @@ class Section extends Component {
               </div>
               <div className="imgItem d-flex justify-content-center">
                 <img
+                  id="corusel-img"
                   alt={food.title}
                   src={food.img}
                   onClick={() => this.props.history.push(food.title)}

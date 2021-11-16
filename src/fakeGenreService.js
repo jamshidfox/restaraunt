@@ -1,6 +1,6 @@
 // import * as genresAPI from "./fakeGenreService";
 // import { getHouses } from "./fakeGenreService";
-
+import dessert from "./concepts/dessert.jpg"
 const houses = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
@@ -21,7 +21,7 @@ const houses = [
     title: "desert",
     price: "7$",
     description: "Some porcess",
-    img: "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGVzc2VydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    img: dessert,
   },
   {
     _id: "5b21ca3eeb7f6fbccd47ersd1816",
@@ -269,6 +269,52 @@ const deserts = [
   },
 ];
 
+const mainCourseSelectContent = [
+  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
+  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
+  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
+  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
+  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
+  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+]
+const saladSelectContent = [
+  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
+  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
+  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
+  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
+  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
+  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+]
+const desertSelectContent = [
+  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
+  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
+  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
+  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
+  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
+  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+]
+
+const drinkSelectContent = [
+  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
+  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
+  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
+  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
+  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
+  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+]
+
+export function getMainCoursesSelectContent() {
+  return mainCourseSelectContent;
+}
+export function getSaladSelectContent () {
+  return saladSelectContent
+}
+export function getDesertSelectContent () {
+  return desertSelectContent
+}
+export function getDrinkSelectContent () {
+  return drinkSelectContent
+}
 export function getHouses() {
   return houses;
 }
