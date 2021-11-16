@@ -270,37 +270,37 @@ const deserts = [
 ];
 
 const mainCourseSelectContent = [
-  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
-  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
-  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
-  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
-  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
-  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+  { value: 'cardamom', label: 'Cardamom Maple Salmon', color: '#00B8D9', isFixed: true },
+  { value: 'potato', label: 'Sweet Potato and Venison', color: '#0052CC', isFixed: true },
+  { value: 'beef', label: 'Beef Stroganoff', color: '#5243AA', isFixed: true },
+  { value: 'turkey', label: 'Low Carb Turkey-Stuffed', color: '#FF5630', isFixed: false },
+  { value: 'chicken', label: 'Sicilian Roasted Chicken', color: '#FF8B00', isFixed: false },
+  { value: 'skillet', label: 'Quick and Easy Chicken Skillet', color: '#FFC400', isFixed: false }
 ]
 const saladSelectContent = [
-  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
-  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
-  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
-  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
-  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
-  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+  { value: 'caesar', label: 'Caesar Salad', color: '#00B8D9', isFixed: true },
+  { value: 'fattoush', label: 'BArabic Fattoush Saladlue', color: '#0052CC', isFixed: true },
+  { value: 'nicoise', label: 'Nicoise salad', color: '#5243AA', isFixed: true },
+  { value: 'cobb', label: 'Cobb Salad', color: '#FF5630', isFixed: false },
+  { value: 'chicken', label: 'Chicken Salad', color: '#FF8B00', isFixed: false },
+  { value: 'davzar', label: 'Davzar', color: '#FFC400', isFixed: false }
 ]
 const desertSelectContent = [
-  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
-  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
-  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
-  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
-  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
-  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+  { value: 'applepie', label: 'Apple Pie', color: '#00B8D9', isFixed: true },
+  { value: 'malai', label: 'Almond Malai', color: '#0052CC', isFixed: true },
+  { value: 'tart', label: 'Lemon Tart', color: '#5243AA', isFixed: true },
+  { value: 'phirni', label: 'Pistachio Phirni', color: '#FF5630', isFixed: false },
+  { value: 'chewy', label: 'Fudgy Chewy Brownies', color: '#FF8B00', isFixed: false },
+  { value: 'tiramisu', label: 'Low fat Tiramisu', color: '#FFC400', isFixed: false }
 ]
 
 const drinkSelectContent = [
-  { value: 'ocean', label: 'Ocean', color: '#00B8D9', isFixed: true },
-  { value: 'blue', label: 'Blue', color: '#0052CC', isFixed: true },
-  { value: 'purple', label: 'Purple', color: '#5243AA', isFixed: true },
-  { value: 'red', label: 'Red', color: '#FF5630', isFixed: false },
-  { value: 'orange', label: 'Orange', color: '#FF8B00', isFixed: false },
-  { value: 'yellow', label: 'Yellow', color: '#FFC400', isFixed: false }
+  { value: 'cola', label: 'Coke', color: '#00B8D9', isFixed: true },
+  { value: 'fanta', label: 'Fanta', color: '#0052CC', isFixed: true },
+  { value: 'lemonade', label: 'Lemonade', color: '#5243AA', isFixed: true },
+  { value: 'soda', label: 'Tonic and Soda', color: '#FF5630', isFixed: false },
+  { value: 'juice', label: 'Fruit Juice', color: '#FF8B00', isFixed: false },
+  { value: 'water', label: 'Mineral Water', color: '#FFC400', isFixed: false }
 ]
 
 export function getMainCoursesSelectContent() {
