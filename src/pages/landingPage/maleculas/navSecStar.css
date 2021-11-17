@@ -1,7 +1,7 @@
 #sideBarId {
+  margin-top: 1em;
   height: 90vh;
   width: 20%;
-  margin-top: 1em;
   background-image: url('/src/concepts/sidebar.jpg');
   background-repeat: no-repeat;
   background-size: cover;

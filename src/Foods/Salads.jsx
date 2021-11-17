@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 // import { Dropdown } from "react-bootstrap";
-import { getSalads } from "../fakeGenreService";
-import {Col, Row} from "reactstrap";
-import "./food.css";
+import { getSalads } from '../fakeGenreService';
+import { Col, Row } from 'reactstrap';
+import './food.css';
 
 class Salads extends Component {
   state = {
@@ -27,9 +27,14 @@ class Salads extends Component {
     // console.log(this.state.salads);
     return (
       <Row className="Salads w-100 d-flex flex-row justify-content-around  row">
-        <Row className='d-flex justify-content-end'>
-          <Col sm='2' className='d-flex justify-content-end mt-3'>
-            <button className='btn btn-info' onClick={() => console.log(this.props.history.goBack())}>Back</button>
+        <Row className="d-flex justify-content-end">
+          <Col sm="2" className="d-flex justify-content-end mt-3">
+            <button
+              className="btn btn-info"
+              onClick={() => console.log(this.props.history.goBack())}
+            >
+              Back
+            </button>
           </Col>
         </Row>
         {this.state.salads.map((salad) => (
@@ -49,9 +54,7 @@ class Salads extends Component {
                 >
                   -
                 </button>
-                <div className="text-dark mt-2 badge badge-lg badge-warning">
-                  {salad.count}
-                </div>
+                <div className="text-dark mt-2 badge badge-lg badge-warning">{salad.count}</div>
                 <button
                   className="btn badge badge-rounded btn-success"
                   onClick={() => this.handleIncrement(salad.id)}
@@ -59,7 +62,7 @@ class Salads extends Component {
                   +
                 </button>
               </Col>
-              <Col sm='2'>
+              <Col sm="2">
                 <h4 className="text-secondary bg-light">Price:{salad.price}</h4>
               </Col>
             </Row>

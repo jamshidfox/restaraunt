@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 // import { Dropdown } from "react-bootstrap";
-import { getDeserts } from "../fakeGenreService";
-import {Col, Row} from "reactstrap";
-import "./food.css";
+import { getDeserts } from '../fakeGenreService';
+import { Col, Row } from 'reactstrap';
+import './food.css';
 
 class Deserts extends Component {
   state = {
@@ -27,9 +27,14 @@ class Deserts extends Component {
     console.log(this.state.deserts);
     return (
       <Row className="Salads w-100 d-flex flex-row justify-content-around  row">
-        <Row className='d-flex justify-content-end'>
-          <Col sm='2' className='d-flex justify-content-end mt-3'>
-            <button className='btn btn-info' onClick={() => console.log(this.props.history.goBack())}>Back</button>
+        <Row className="d-flex justify-content-end">
+          <Col sm="2" className="d-flex justify-content-end mt-3">
+            <button
+              className="btn btn-info"
+              onClick={() => console.log(this.props.history.goBack())}
+            >
+              Back
+            </button>
           </Col>
         </Row>
         {this.state.deserts.map((salad) => (
@@ -59,7 +64,7 @@ class Deserts extends Component {
                   +
                 </button>
               </Col>
-              <Col sm='2'>
+              <Col sm="2">
                 <h4 className="text-secondary bg-light">Price:{salad.price}</h4>
               </Col>
             </Row>

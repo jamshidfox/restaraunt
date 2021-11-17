@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Sidebar from "./maleculas/sideBar";
+import Sidebar from "./maleculas/sideBar"
 import Section from "./maleculas/section";
 
 class Homepage extends Component {

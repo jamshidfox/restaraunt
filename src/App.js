@@ -1,15 +1,14 @@
 // import logo from "./logo.svg";
 // import "./App.css";
-import React from "react";
-import Navbar from "./pages/navbar/navbar"
+import React from 'react';
 // import Homepage from "./pages/section/index";
-import Homepage from "./pages/landingPage/homepage"
-import Salads from "./Foods/Salads";
-import MainCourse from "./Foods/MainCourse";
-import Deserts from "./Foods/Deserts";
-import Drinks from "./Foods/Drinks";
-import { Route, Switch } from "react-router";
-
+import Homepage from './pages/landingPage/homepage';
+import Salads from './Foods/Salads';
+import MainCourse from './Foods/MainCourse';
+import Deserts from './Foods/Deserts';
+import Drinks from './Foods/Drinks';
+import { Route, Switch } from 'react-router';
+import Navbar from './pages/navbar/navbar';
 function App() {
   return (
     <React.Fragment>
