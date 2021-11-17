@@ -1,7 +1,3 @@
-/* #navBar {
-  background-color: white;
-  height: 100%
-} */
 #sideBarId {
   height: 90vh;
   width: 20%;
@@ -57,3 +53,8 @@
 #corusel-img{
     height: 450px
 }
+#avatar-dropdowntoggle{
+  background-color: transparent;
+  border: none;
+}
+
