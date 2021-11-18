@@ -6,15 +6,22 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#myVideo{
+  background-repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  opacity: 0.8;
+}
 #section {
   margin-top: 1em;
   margin-left: 1em;
   width: 90%;
   height: 90vh;
-  background-image: url("/src/concepts/background-blurry-restaurant-shop-interior.jpg");
+  /* background-image: url("/src/concepts/background-blurry-restaurant-shop-interior.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
   overflow-y: hidden;
+  
 }
 .ulOfSection {
   list-style-type: none;
@@ -37,6 +44,7 @@
   height: 100%;
   overflow: hidden;
 }
+
 .imgItem :hover {
   border-radius: 15%;
   cursor: pointer;
@@ -49,12 +57,18 @@
 
 .Carusel {
   width: 100%;
-}
-#corusel-img{
-    height: 450px
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #avatar-dropdowntoggle{
   background-color: transparent;
   border: none;
 }
-
+#corusel-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 8px;
+}

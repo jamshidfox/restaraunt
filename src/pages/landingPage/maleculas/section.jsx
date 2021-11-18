@@ -3,6 +3,7 @@ import './navSecStar.css';
 import { getHouses } from '../../../fakeGenreService';
 import { CardBody, Card } from 'reactstrap';
 import { Carousel } from 'react-bootstrap';
+import backgroundImg from '../../../concepts/body-background-video.mp4';
 class Section extends Component {
   state = {
     food: [],
@@ -16,14 +17,15 @@ class Section extends Component {
     return (
       <Card className="conatainer shadow-sm" id="section">
         <CardBody>
+          <video id="myVideo" autoplay="true" loop="loop" muted>
+            <source src={backgroundImg} type="video/mp4" />
+          </video>
           <div className="w-100 d-flex flex-column align-items-center text-light  mt-2">
             <h1 className="fst-italic text-light">CARAVAN</h1>
-            {/* <p className='text-warning'>POSTERMYWALL CAFE</p> */}
           </div>
-          {/* <div className="d-flex flex-row"> */}
           <Carousel controls={false} className="Carusel">
             {this.state.food.map((food) => (
-              <Carousel.Item interval={2000} className="itemOfFood">
+              <Carousel.Item interval={2000} className="corusel-meal-section">
                 <div className="mt-2">
                   <h3 style={{ textAlign: 'center', color: '#fff' }}>{food.title}</h3>
                 </div>
@@ -39,7 +41,6 @@ class Section extends Component {
             ))}
           </Carousel>
         </CardBody>
-        {/* </div> */}
       </Card>
     );
   }
