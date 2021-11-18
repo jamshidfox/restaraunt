@@ -8,7 +8,7 @@ class Drinks extends Component {
   state = {
     drinks: [],
   };
-
+  //////
   componentDidMount() {
     const drinks = getDrinks();
     this.setState({ drinks });
